@@ -3,12 +3,12 @@
 
 // conversão implícita
 const numero = 456;
-const numeroString = Number("456a");
+const numeroString = 456;
 
 //Number()
 //String()
-console.log(numero + numeroString)
+console.log(numero + Number(numeroString))
 
 // conversão explícita
 
-console.warn(new Error('oi'))
+// console.warn(new Error('oi'))
